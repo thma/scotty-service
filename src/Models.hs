@@ -4,9 +4,9 @@
 
 module Models (Product (..), User (..)) where
 
-import           Data.Aeson
-import           Data.Text
-import           GHC.Generics
+import           Data.Aeson          (FromJSON, ToJSON)
+import           Data.Text           (Text) 
+import           GHC.Generics        (Generic) 
 
 -- Define a Product data type
 data Product = Product

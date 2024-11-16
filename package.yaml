@@ -21,12 +21,7 @@ extra-source-files:
 language: GHC2021    # See https://ghc-proposals.readthedocs.io/en/latest/proposals/0380-ghc2021.html
 
 default-extensions:
-#- DuplicateRecordFields
-#- DeriveAnyClass
-#- DerivingStrategies
 - OverloadedRecordDot
-#- TemplateHaskell
-#- QuasiQuotes
 - LambdaCase
 
 dependencies:
